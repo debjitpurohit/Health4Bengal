@@ -1,141 +1,232 @@
 <!DOCTYPE html>
-<html lang="en"   class="scroll-smooth">
+<html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health4Bengal-healthtips</title>
     <link rel="stylesheet" href="index.css">
-  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"  rel="stylesheet" />
+
 </head>
+
 <body>
     <div id="preloader"></div>
     <nav class="sticky top-0 bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="/" class="flex items-center">
-              <img src="images/logo.png" class="h-8 mr-3" alt="Flowbite Logo" />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Health4Bengal</span>
-          </a>
-          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-              </svg>
-          </button>
-          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <li>
-                <a href="/" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
-              </li>
-              <li>
-                <a href="/index.html#about" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</a>
-              </li>
-              <li>
-                <a href="/healthtps.html" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Health Tips</a>
-              </li>
-              <li>
-                <a href="/fitness.html" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Fitness & Exercises</a>
-              </li>
-              <li>
-                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"></a>
-              </li>
-            </ul>
-          </div>
+            <a href="/" class="flex items-center">
+                <img src="images/logo.png" class="h-8 mr-3" alt="Flowbite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Health4Bengal</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="/"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="/indexd.html#about"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
+                            Us</a>
+                    </li>
+                    <li>
+                        <a href="/healthtps.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Health
+                            Tips</a>
+                    </li>
+                    <li>
+                        <a href="/fitness.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Fitness
+                            & Exercises</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-      <!--health tips here -->
-      <div class="bg-white border-gray-200 dark:bg-gray-900"  >
-        <h1>Health tips</h1>
-    </div>
+    </nav>
+    <!--health tips here -->
+    <div class="dark:bg-gray-900">
+        <h1 class="text-white text-3xl font-sans text-center font-bold">5 Health Tips</h1>
+        <div class=" w-auto">
+            <div class="p-4 flex items-center justify-center">
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md w-3/4 ">
+                    <div class="p-4">
+                        <a href=""
+                            class="block text-blue-700 font-semibold mb-2 text-lg leading-tight hover:text-blue-700">1. Eat a healthy diet</a>
+                        <p class="text-gray-700 dark:text-gray-400">Eat a combination of different foods, including fruit, vegetables, legumes, nuts and whole grains. Adults should eat at least five portions (400g) of fruit and vegetables per day. You can improve your intake of fruits and vegetables by always including veggies in your meal; eating fresh fruit and vegetables as snacks; eating a variety of fruits and vegetables; and eating them in season. By eating healthy, you will reduce your risk of malnutrition and noncommunicable diseases (NCDs) such as diabetes, heart disease, stroke and cancer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 flex items-center justify-center">
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md w-3/4">
+                    <div class="p-4">
+                        <a href=""
+                            class="block text-blue-700 font-semibold mb-2 text-lg leading-tight hover:text-blue-700">2. Consume less salt and sugar</a>
+                        <p class="text-gray-700 dark:text-gray-400">Filipinos consume twice the recommended amount of sodium, putting them at risk of high blood pressure, which in turn increases the risk of heart disease and stroke. Most people get their sodium through salt. Reduce your salt intake to 5g per day, equivalent to about one teaspoon. It’s easier to do this by limiting the amount of salt, soy sauce, fish sauce and other high-sodium condiments when preparing meals; removing salt, seasonings and condiments from your meal table; avoiding salty snacks; and choosing low-sodium products.
 
+                            On the other hand, consuming excessive amounts of sugars increases the risk of tooth decay and unhealthy weight gain. In both adults and children, the intake of free sugars should be reduced to less than 10% of total energy intake. This is equivalent to 50g or about 12 teaspoons for an adult. WHO recommends consuming less than 5% of total energy intake for additional health benefits. You can reduce your sugar intake by limiting the consumption of sugary snacks, candies and sugar-sweetened beverages.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 flex items-center justify-center">
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md w-3/4">
+                    <div class="p-4">
+                        <a href=""
+                            class="block text-blue-700 font-semibold mb-2 text-lg leading-tight hover:text-blue-700">3. Reduce intake of harmful fats</a>
+                        <p class="text-gray-700 dark:text-gray-400">Fats consumed should be less than 30% of your total energy intake. This will help prevent unhealthy weight gain and NCDs. There are different types of fats, but unsaturated fats are preferable over saturated fats and trans-fats. WHO recommends reducing saturated fats to less than 10% of total energy intake; reducing trans-fats to less than 1% of total energy intake; and replacing both saturated fats and trans-fats to unsaturated fats.
 
+                            The preferable unsaturated fats are found in fish, avocado and nuts, and in sunflower, soybean, canola and olive oils; saturated fats are found in fatty meat, butter, palm and coconut oil, cream, cheese, ghee and lard; and trans-fats are found in baked and fried foods, and pre-packaged snacks and foods, such as frozen pizza, cookies, biscuits, and cooking oils and spreads.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 flex items-center justify-center ">
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md w-3/4">
+                    <div class="p-4">
+                        <a href=""
+                            class="block text-blue-700 font-semibold mb-2 text-lg leading-tight hover:text-blue-700">4. Be active</a>
+                        <p class="text-gray-700 dark:text-gray-400">Physical activity is defined as any bodily movement produced by skeletal muscles that requires energy expenditure. This includes exercise and activities undertaken while working, playing, carrying out household chores, travelling, and engaging in recreational pursuits. The amount of physical activity you need depends on your age group but adults aged 18-64 years should do at least 150 minutes of moderate-intensity physical activity throughout the week. Increase moderate-intensity physical activity to 300 minutes per week for additional health benefits.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 flex items-center justify-center">
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md w-3/4">
+                    <div class="p-4">
+                        <a href=""
+                            class="block text-blue-700 font-semibold mb-2 text-lg leading-tight hover:text-blue-700">5. Drink only safe water</a>
+                        <p class="text-gray-700 dark:text-gray-400">Drinking unsafe water can lead to water-borne diseases such as cholera, diarrhoea, hepatitis A, typhoid and polio. Globally, at least 2 billion people use a drinking water source contaminated with faeces. Check with your water concessionaire and water refilling station to ensure that the water you’re drinking is safe. In a setting where you are unsure of your water source, boil your water for at least one minute. This will destroy harmful organisms in the water. Let it cool naturally before drinking.</p>
+                    </div>
+                </div>
+            </div>
 
-      <!--footer-->
-      <footer class="bg-white dark:bg-gray-900">
-        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-            <div class="md:flex md:justify-between">
-              <div class="mb-6 md:mb-0">
-                <a href="/" class="flex items-center">
-                    <img src="images/logo.png" class="h-8 mr-3" alt="FlowBite Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Health4Bengal</span>
-                </a>
-               
-              </div>
-              <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                  <div>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Health Tips</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <a href="https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eight-tips-for-healthy-eating/" class="hover:underline">National Health Service</a>
-                          </li>
-                          <li>
-                              <a href="https://www.who.int/philippines/news/feature-stories/detail/20-health-tips-for-2020" class="hover:underline">World Health Organization</a>
-                          </li>
-                      </ul>
-                  </div>
-                  <div>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Fitness & Exercises</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <a href="https://www.nia.nih.gov/health/four-types-exercise-can-improve-your-health-and-physical-ability" class="hover:underline ">National Institute on Aging</a>
-                          </li>
-                          <li>
-                              <a href="https://www.health.harvard.edu/topics/exercise-and-fitness" class="hover:underline">Havard</a>
-                          </li>
-                      </ul>
-                  </div>
-                  <div>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact Us</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <a href="#" class="hover:underline">Privacy Policy</a>
-                          </li>
-                          <li>
-                              <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div class="sm:flex sm:items-center sm:justify-between">
-              <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" class="hover:underline">Health4Bengal™</a>. All Rights Reserved.
-              </span>
-              <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                  <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                            <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
-                        </svg>
-                      <span class="sr-only">Facebook page</span>
-                  </a>
-                  <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
-                            <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
-                        </svg>
-                      <span class="sr-only">Discord community</span>
-                  </a>
-                  <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                        <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
-                    </svg>
-                      <span class="sr-only">Twitter page</span>
-                  </a>
-                  <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
-                      </svg>
-                      <span class="sr-only">GitHub account</span>
-                  </a>
-                  <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
-                    </svg>
-                      <span class="sr-only">Dribbble account</span>
-                  </a>
-              </div>
-          </div>
         </div>
-    </footer>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="index.js"></script>
+
+        <!--footer-->
+        <footer class="bg-white dark:bg-gray-900">
+            <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+                <div class="md:flex md:justify-between">
+                    <div class="mb-6 md:mb-0">
+                        <a href="/" class="flex items-center">
+                            <img src="images/logo.png" class="h-8 mr-3" alt="FlowBite Logo" />
+                            <span
+                                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Health4Bengal</span>
+                        </a>
+
+                    </div>
+                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                                Health Tips</h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eight-tips-for-healthy-eating/"
+                                        class="hover:underline">National Health Service</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.who.int/philippines/news/feature-stories/detail/20-health-tips-for-2020"
+                                        class="hover:underline">World Health Organization</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                                Fitness & Exercises</h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="https://www.nia.nih.gov/health/four-types-exercise-can-improve-your-health-and-physical-ability"
+                                        class="hover:underline ">National Institute on Aging</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.health.harvard.edu/topics/exercise-and-fitness"
+                                        class="hover:underline">Havard</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                                Contact Us</h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href=""
+                            class="hover:underline">Health4Bengal™</a>. All Rights Reserved.
+                    </span>
+                    <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor" viewBox="0 0 8 19">
+                                <path fill-rule="evenodd"
+                                    d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="sr-only">Facebook page</span>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor" viewBox="0 0 21 16">
+                                <path
+                                    d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+                            </svg>
+                            <span class="sr-only">Discord community</span>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor" viewBox="0 0 20 17">
+                                <path fill-rule="evenodd"
+                                    d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="sr-only">Twitter page</span>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="sr-only">GitHub account</span>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="sr-only">Dribbble account</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
 </body>
+
 </html>
