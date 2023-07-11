@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+  overflow-x: hidden;
+}
 #preloader{
     background: #0e111f url(ezgif-2-078cdcb3f1d3.gif) no-repeat center center;
     background-size: 30%;
